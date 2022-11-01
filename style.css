@@ -9,15 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   background-color: #f8f8f8;
-}
-
-.main-slider {
-  position: relative;
-  flex-direction: row-reverse;
-  gap: 50px;
-  width: 85%;
 }
 
 .main-slider,
@@ -26,6 +18,14 @@ body {
 .column1_inner,
 .info_inner {
   display: flex !important;
+}
+
+.main-slider {
+  position: relative;
+  flex-direction: row-reverse;
+  gap: 60px;
+  width: 85%;
+  margin-top: 100px;
 }
 
 .card {
@@ -73,6 +73,7 @@ body {
   width: 15px;
   background-size: cover;
   top: 50%;
+  cursor: pointer;
 }
 
 .slick-prev {
@@ -98,6 +99,7 @@ body {
   border: 2px solid #c4c4c4;
   border-radius: 2px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .dots .slick-active button {
